@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8D9F6401E19A7B600037457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F63F1E19A7B600037457 /* main.m */; };
+		C8D9F6431E19A7B600037457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F6421E19A7B600037457 /* AppDelegate.m */; };
+		C8D9F6461E19A7B600037457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F6451E19A7B600037457 /* ViewController.m */; };
+		C8D9F6491E19A7B600037457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F6471E19A7B600037457 /* Main.storyboard */; };
+		C8D9F64B1E19A7B600037457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F64A1E19A7B600037457 /* Assets.xcassets */; };
+		C8D9F64E1E19A7B600037457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D9F64C1E19A7B600037457 /* LaunchScreen.storyboard */; };
+		C8D9F6591E19A7B600037457 /* BatteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F6581E19A7B600037457 /* BatteryTests.m */; };
+		C8D9F6641E19A7B600037457 /* BatteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D9F6631E19A7B600037457 /* BatteryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8D9F6551E19A7B600037457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D9F6331E19A7B600037457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D9F63A1E19A7B600037457;
+			remoteInfo = Battery;
+		};
+		C8D9F6601E19A7B600037457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D9F6331E19A7B600037457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D9F63A1E19A7B600037457;
+			remoteInfo = Battery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8D9F63B1E19A7B600037457 /* Battery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D9F63F1E19A7B600037457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8D9F6411E19A7B600037457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8D9F6421E19A7B600037457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8D9F6441E19A7B600037457 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8D9F6451E19A7B600037457 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8D9F6481E19A7B600037457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8D9F64A1E19A7B600037457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8D9F64D1E19A7B600037457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8D9F64F1E19A7B600037457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D9F6541E19A7B600037457 /* BatteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D9F6581E19A7B600037457 /* BatteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatteryTests.m; sourceTree = "<group>"; };
+		C8D9F65A1E19A7B600037457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D9F65F1E19A7B600037457 /* BatteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D9F6631E19A7B600037457 /* BatteryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatteryUITests.m; sourceTree = "<group>"; };
+		C8D9F6651E19A7B600037457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8D9F6381E19A7B600037457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D9F6511E19A7B600037457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D9F65C1E19A7B600037457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8D9F6321E19A7B600037457 = {
+			isa = PBXGroup;
+			children = (
+				C8D9F63D1E19A7B600037457 /* Battery */,
+				C8D9F6571E19A7B600037457 /* BatteryTests */,
+				C8D9F6621E19A7B600037457 /* BatteryUITests */,
+				C8D9F63C1E19A7B600037457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8D9F63C1E19A7B600037457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9F63B1E19A7B600037457 /* Battery.app */,
+				C8D9F6541E19A7B600037457 /* BatteryTests.xctest */,
+				C8D9F65F1E19A7B600037457 /* BatteryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8D9F63D1E19A7B600037457 /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9F6411E19A7B600037457 /* AppDelegate.h */,
+				C8D9F6421E19A7B600037457 /* AppDelegate.m */,
+				C8D9F6441E19A7B600037457 /* ViewController.h */,
+				C8D9F6451E19A7B600037457 /* ViewController.m */,
+				C8D9F6471E19A7B600037457 /* Main.storyboard */,
+				C8D9F64A1E19A7B600037457 /* Assets.xcassets */,
+				C8D9F64C1E19A7B600037457 /* LaunchScreen.storyboard */,
+				C8D9F64F1E19A7B600037457 /* Info.plist */,
+				C8D9F63E1E19A7B600037457 /* Supporting Files */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		C8D9F63E1E19A7B600037457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9F63F1E19A7B600037457 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8D9F6571E19A7B600037457 /* BatteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9F6581E19A7B600037457 /* BatteryTests.m */,
+				C8D9F65A1E19A7B600037457 /* Info.plist */,
+			);
+			path = BatteryTests;
+			sourceTree = "<group>";
+		};
+		C8D9F6621E19A7B600037457 /* BatteryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9F6631E19A7B600037457 /* BatteryUITests.m */,
+				C8D9F6651E19A7B600037457 /* Info.plist */,
+			);
+			path = BatteryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8D9F63A1E19A7B600037457 /* Battery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D9F6681E19A7B600037457 /* Build configuration list for PBXNativeTarget "Battery" */;
+			buildPhases = (
+				C8D9F6371E19A7B600037457 /* Sources */,
+				C8D9F6381E19A7B600037457 /* Frameworks */,
+				C8D9F6391E19A7B600037457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Battery;
+			productName = Battery;
+			productReference = C8D9F63B1E19A7B600037457 /* Battery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8D9F6531E19A7B600037457 /* BatteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D9F66B1E19A7B600037457 /* Build configuration list for PBXNativeTarget "BatteryTests" */;
+			buildPhases = (
+				C8D9F6501E19A7B600037457 /* Sources */,
+				C8D9F6511E19A7B600037457 /* Frameworks */,
+				C8D9F6521E19A7B600037457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D9F6561E19A7B600037457 /* PBXTargetDependency */,
+			);
+			name = BatteryTests;
+			productName = BatteryTests;
+			productReference = C8D9F6541E19A7B600037457 /* BatteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8D9F65E1E19A7B600037457 /* BatteryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D9F66E1E19A7B600037457 /* Build configuration list for PBXNativeTarget "BatteryUITests" */;
+			buildPhases = (
+				C8D9F65B1E19A7B600037457 /* Sources */,
+				C8D9F65C1E19A7B600037457 /* Frameworks */,
+				C8D9F65D1E19A7B600037457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D9F6611E19A7B600037457 /* PBXTargetDependency */,
+			);
+			name = BatteryUITests;
+			productName = BatteryUITests;
+			productReference = C8D9F65F1E19A7B600037457 /* BatteryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D9F6331E19A7B600037457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Giorgos livas";
+				TargetAttributes = {
+					C8D9F63A1E19A7B600037457 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C8D9F6531E19A7B600037457 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8D9F63A1E19A7B600037457;
+					};
+					C8D9F65E1E19A7B600037457 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8D9F63A1E19A7B600037457;
+					};
+				};
+			};
+			buildConfigurationList = C8D9F6361E19A7B600037457 /* Build configuration list for PBXProject "Battery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8D9F6321E19A7B600037457;
+			productRefGroup = C8D9F63C1E19A7B600037457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8D9F63A1E19A7B600037457 /* Battery */,
+				C8D9F6531E19A7B600037457 /* BatteryTests */,
+				C8D9F65E1E19A7B600037457 /* BatteryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8D9F6391E19A7B600037457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D9F64E1E19A7B600037457 /* LaunchScreen.storyboard in Resources */,
+				C8D9F64B1E19A7B600037457 /* Assets.xcassets in Resources */,
+				C8D9F6491E19A7B600037457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D9F6521E19A7B600037457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D9F65D1E19A7B600037457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D9F6371E19A7B600037457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D9F6461E19A7B600037457 /* ViewController.m in Sources */,
+				C8D9F6431E19A7B600037457 /* AppDelegate.m in Sources */,
+				C8D9F6401E19A7B600037457 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D9F6501E19A7B600037457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D9F6591E19A7B600037457 /* BatteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D9F65B1E19A7B600037457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D9F6641E19A7B600037457 /* BatteryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8D9F6561E19A7B600037457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D9F63A1E19A7B600037457 /* Battery */;
+			targetProxy = C8D9F6551E19A7B600037457 /* PBXContainerItemProxy */;
+		};
+		C8D9F6611E19A7B600037457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D9F63A1E19A7B600037457 /* Battery */;
+			targetProxy = C8D9F6601E19A7B600037457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8D9F6471E19A7B600037457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D9F6481E19A7B600037457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8D9F64C1E19A7B600037457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D9F64D1E19A7B600037457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8D9F6661E19A7B600037457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8D9F6671E19A7B600037457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8D9F6691E19A7B600037457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Battery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glivas.Battery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8D9F66A1E19A7B600037457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Battery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glivas.Battery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8D9F66C1E19A7B600037457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BatteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glivas.BatteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battery.app/Battery";
+			};
+			name = Debug;
+		};
+		C8D9F66D1E19A7B600037457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BatteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glivas.BatteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battery.app/Battery";
+			};
+			name = Release;
+		};
+		C8D9F66F1E19A7B600037457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BatteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glivas.BatteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Battery;
+			};
+			name = Debug;
+		};
+		C8D9F6701E19A7B600037457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BatteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glivas.BatteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Battery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8D9F6361E19A7B600037457 /* Build configuration list for PBXProject "Battery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D9F6661E19A7B600037457 /* Debug */,
+				C8D9F6671E19A7B600037457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D9F6681E19A7B600037457 /* Build configuration list for PBXNativeTarget "Battery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D9F6691E19A7B600037457 /* Debug */,
+				C8D9F66A1E19A7B600037457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8D9F66B1E19A7B600037457 /* Build configuration list for PBXNativeTarget "BatteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D9F66C1E19A7B600037457 /* Debug */,
+				C8D9F66D1E19A7B600037457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8D9F66E1E19A7B600037457 /* Build configuration list for PBXNativeTarget "BatteryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D9F66F1E19A7B600037457 /* Debug */,
+				C8D9F6701E19A7B600037457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8D9F6331E19A7B600037457 /* Project object */;
+}
